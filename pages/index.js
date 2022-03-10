@@ -46,7 +46,7 @@ export default function Home() {
           height="100%"
           preserveAspectRatio="xMidYMid"
           viewBox="0 0 100% 100%"
-          // className="fixed-bottom"
+          className="position-fixed fixed-bottom"
         >
           <g transform="translate(960,540) scale(1,-1) translate(-960,-540)">
             <linearGradient
@@ -56,8 +56,8 @@ export default function Home() {
               y1="0"
               y2="0"
             >
-              <stop stop-color="#fe8e1f" offset="0"></stop>
-              <stop stop-color="#fe8e1f" offset="1"></stop>
+              <stop stopColor="#fe8e1f" offset="0"></stop>
+              <stop stopColor="#fe8e1f" offset="1"></stop>
             </linearGradient>
             <path d="" fill="#ff4500" opacity="0.4">
               <animate
