@@ -1,8 +1,5 @@
 import { useEffect } from "react";
 import Head from "next/head";
-import Image from "next/image";
-import sun from "../public/sun.png";
-import styles from "../styles/Home.module.css";
 import FlipDown from "../clock/flipdown";
 
 export default function Home() {
@@ -13,7 +10,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Bitcoin Bay</title>
-        <meta name="description" content="" />
+        <meta name="description" content="Adopting Bitcoin in Tampa Bay." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main style={{ height: "100vh" }}>
