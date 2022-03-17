@@ -34,7 +34,10 @@ export default function Home() {
               textDecoration: "underline",
             }}
           >
-            <a href="https://signal.group/#CjQKIGShlxr4ki9pd7ZJwibpqAnft3-JGTGRWoCQnZE7FjG8EhAHrTq966xojOOc0zlJrPuJ">
+            <a
+              href="https://signal.group/#CjQKIGShlxr4ki9pd7ZJwibpqAnft3-JGTGRWoCQnZE7FjG8EhAHrTq966xojOOc0zlJrPuJ"
+              target="_blank"
+            >
               Join us on Signal
             </a>
           </h5>
