@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import Head from "next/head";
+import Image from "next/image";
 import FlipDown from "../clock/flipdown";
-
+import logo from "../public/logo.png";
 export default function Home() {
   useEffect(() => {
     new FlipDown(1654762800).start();
@@ -18,13 +19,13 @@ export default function Home() {
           style={{
             background: "#fffbee",
             zIndex: 2,
-            marginTop: "250px",
+            marginTop: "100px",
             fontFamily: "Ubuntu, sans-serif",
           }}
           className="position-fixed w-100 align-middle d-flex flex-column align-items-center"
         >
-          <h1 className="title">Bitcoin Bay</h1>
-          <div>
+          <Image src={logo} width={250} height={200} />
+          <div style={{ marginTop: "25px" }}>
             <div id="flipdown" className="flipdown"></div>
           </div>
           <h5
